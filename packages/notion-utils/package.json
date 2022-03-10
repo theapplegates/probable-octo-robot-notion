@@ -1,0 +1,25 @@
+{
+  "name": "notion-utils",
+  "version": "4.16.0",
+  "description": "Useful utilities for working with Notion data. Isomorphic.",
+  "repository": "NotionX/react-notion-x",
+  "author": "Travis Fischer <travis@transitivebullsh.it>",
+  "license": "MIT",
+  "main": "build/cjs/index.js",
+  "module": "build/esm/index.js",
+  "typings": "build/esm/index.d.ts",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "ava -v 'build/cjs/**/*.test.js'"
+  },
+  "dependencies": {
+    "notion-types": "^4.16.0",
+    "p-queue": "7.2.0"
+  },
+  "devDependencies": {
+    "ava": "^4.1.0"
+  }
+}
